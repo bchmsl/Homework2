@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Homework2</string>
+    <string name="convert">გადაყვანა</string>
+    <string name="Instruction">გთხოვთ შეიყვანოთ მთელი მნიშვნელობა 1-დან 1000-ის ჩათვლით.</string>
+</resources>

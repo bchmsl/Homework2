@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvInstructions"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:text="@string/Instruction"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etNumberInput"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:cursorVisible="false"
+        android:gravity="center"
+        android:inputType="numberDecimal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConvert"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="70dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/convert"
+        android:textSize="20dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvResult"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        tools:text="Lorem Ipsum" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
